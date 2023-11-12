@@ -102,9 +102,9 @@ const WeatherApp = () => {
             {Math.ceil(weatherData.main.temp)}°C
           </div>
           <div className="weather-location">{weatherData.name}</div>
-          <div className="weather-feelslike">
+          {/* <div className="weather-feelslike">
             Feels Like: {Math.ceil(weatherData.main.feels_like)}°C
-          </div>
+          </div> */}
           <div className="data-container">
             <div className="element">
               <img src={humidity_icon} alt="Humidity Icon" className="icon" />
